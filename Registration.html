@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Hotel Registration Form</title>
+</head>
+
+<body>
+  <h1>Hotel Guest Registration Form</h1>
+  <hr size="10" noshade />
+  <center>
+    <h2>Form Preview</h2>
+    <h1>Hotel Guest Registration Form</h1>
+  </center>
+  <hr />
+  <form action="/Users/nhitran/Desktop/AngelaWu_FrontEnd/Hotel Registration Form/RegisterSuccess.html">
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <label for="first">First Name</label>
+        </td>
+        <td>
+          <label for="last">Last Name</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" name="name" id="first" size="30" required>
+        </td>
+        <td>
+          <input type="text" name="name" id="last" size="30" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="address1">Address 1</label>
+        </td>
+        <td>
+          <label for="address2">Address 2</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" name="StreetAdress" id="address1" size="35" required>
+        </td>
+
+        <td>
+          <input type="text" name="StreetAddress2" id="address2" size="35">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="city">City</label>
+        </td>
+        <td>
+          <label for="state">State</label>
+        </td>
+        <td>
+          <label for="zipcode">Zip Code</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <input type="text" name="city" id="city" size="20" required>
+        </td>
+        <td>
+          <input type="text" name="state" id="state" size="20" required>
+        </td>
+        <td>
+          <input type="number" name="zipcode" id="zipcode" size="10" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <label for="phone">Phone Number</label>
+        </td>
+        <td>
+          <label for="email">Email Address</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="tel" name="phone" id="phone" size="20" required>
+        </td>
+        <td>
+          <input type="email" name="email" id="email" size="35" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="inDate">Check-in Date</label>
+        </td>
+        <td>
+          <label for="outDate">Check-out Date</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="datetime-local" name="inDate" id="inDate" required>
+        </td>
+        <td>
+          <input type="datetime-local" name="outDate" id="outDate" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="room">Room Preference</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" name="room" id="standard" checked>
+          <label for="standard">Standard</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" name="room" id="deluxe">
+          <label for="deluxe">Deluxe</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" name="room" id="suite">
+          <label for="suite">Suite</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><button type="submit" name="button">Register</button></td>
+      </tr>
+
+
+    </table>
+  </form>
+</body>
+
+</html>
